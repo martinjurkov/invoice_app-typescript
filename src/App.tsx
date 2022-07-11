@@ -13,7 +13,7 @@ import Spinner from './components/Spinner';
 const App: React.FC = () => {
   // global state for initial data and for manipulating with data, data are from localStorage (initial data from InvoiceData)
   const [invoiceData, setInvoiceData] = useState<InvoiceDataTypes[]>(
-    JSON.parse(localStorage.getItem('data') || '') || InvoiceData
+    JSON.parse(localStorage.getItem('data') || '[]') || InvoiceData
   );
   // empty object as a place for pushing data from single invoice for reading in invoice detail
   const [viewSingleInvoice, setViewSingleInvoice] = useState<
