@@ -3,7 +3,7 @@ export interface InvoiceDataTypes {
   createdAt: any;
   paymentDue: any;
   description: string;
-  paymentTerms: number;
+  paymentTerms: any;
   clientName: string;
   clientEmail: string;
   status: string;
@@ -19,9 +19,9 @@ export interface InvoiceDataTypes {
   clientAddressCountry: string;
 
   itemsName: string;
-  itemsQty: number;
-  itemsPrice: number;
-  itemsTotal: number;
+  itemsQty: any;
+  itemsPrice: any;
+  itemsTotal: any;
 
-  total: number;
+  total: any;
 }

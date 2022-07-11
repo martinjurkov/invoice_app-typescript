@@ -141,11 +141,11 @@ const ModalNewInvoice: React.FC<ModalNewInvoiceTypes> = ({
       textCountryTo.trim().length < 1 ||
       textEmailTo.trim().length < 1 ||
       invoiceDate.trim().length < 1 ||
-      paymentTerm.trim().length < 1 ||
+      paymentTerm.toString().trim().length < 1 ||
       textProjectDescription.trim().length < 1 ||
       itemsName.trim().length < 1 ||
-      itemsQty.trim().length < 1 ||
-      itemsPrice.trim().length < 1
+      itemsQty.toString().trim().length < 1 ||
+      itemsPrice.toString().trim().length < 1
     ) {
       setMessageError(true);
       window.scrollTo(0, 0);
