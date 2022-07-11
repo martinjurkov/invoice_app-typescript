@@ -28,3 +28,5 @@ Users should be able to:
  - Keep track of any changes, even after refreshing the browser (localStorage)
 
 ## Links
+ - Solution URL: <a href=https://github.com/martinjurkov/invoice-app>GitHub</a>
+ - Live Site URL: <a href=https://invoice-app-typescript-martinjurkov.vercel.app/>Live</a>
